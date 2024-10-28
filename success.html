@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories - माँ Tech</title>
+    <link rel="stylesheet" href="success.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="momimage-removebg.png" alt="logo"
+                    style="position: absolute; margin-top: -20px; width: 150px; height: 90px;">
+                <span style="font-weight: bolder; font-size: 40px; margin-left: 160px;">माँ Tech</span>
+            </div>
+            <div class="nav-links" style="font-weight: 700;">
+                <a href="hack1.html">Home</a>
+               
+             
+                <a href="success.html">Success Stories</a>
+                <a href="humanvalues.html">Human Values</a>
+                <a href="aboutuss.html">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content success-stories">
+        <h1 style="font-family: 'Poppins';">SUCCESS STORIES</h1>
+
+        <div class="story-card">
+            <di v class="story-content">
+    <img src="radhavembuu.png" alt="Radha's story" style="object-fit: cover;" class="story-image">
+                <div class="text-content">
+        <h3>A Self-Made Billionaire RADHA VEMBU</h3>
+                    <p>Radha, a mother from a rural village, had no formal education but enrolled in a local adult
+             education program</p>
+       <div class="full-story" style="display: none;">
+                        <p>After learning basic literacy and numeracy skills, she began teaching her children at home.
+           Her efforts not only improved her children’s academic performance but also encouraged other
+                            women in her community to seek education, leading to a local movement for
+                  women’s education..</p>
+                    </div>
+                    <a class="read-more-btn" onclick="toggleStory(this)">Read More</a>
+                </div>
+            </di>
+        </div>
+        <!-- meera story -->
+
+        <!--  seetha katha-->
+        <div class="story-card">
+            <div class="story-content">
+                <img src="seetha.png" style="object-fit: cover;" alt="Sunita's story" class="story-image">
+    <div class="text-content">
+                    <h3> Seetha's Story of Change
+                    </h3>
+         <p>Sita’s Impact: Sita, a homemaker, realized the importance of education when her children
+                        struggled with their studies.</p>
+                    <div class="full-story" style="display: none;">
+            <p>She pursued adult education and soon became proficient enough to assist her children with their homework. Sita’s journey inspired her neighbors, and she now leads community workshops focused on basic education..</p>
+                    </div>
+                    <a class="read-more-btn" onclick="toggleStory(this)">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- close dabba -->
+         <!-- meera's dabba -->
+        <div class="story-card">
+            <div class="story-content">
+                <img src="meera.png" style="object-fit: cover;" alt="Sunita's story" class="story-image">
+                <div class="text-content">
+                   <h3>MEERA'S TRANSFORMATION</h3>
+<p>Meera’s Transformation: Meera was once illiterate, attended evening classes organized by a
+                        non-profit organization.</p>
+                    <div class="full-story" style="display: none;">
+                        <p>she gained confidence, she began teaching her children and their friends. Meera’s commitment
+                            led to the establishment of a local literacy program, helping dozens of children gain
+                            essential skills.</p>
+                    </div>
+        <a class="read-more-btn" onclick="toggleStory(this)">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- close dabba -->
+
+        <!-- OPEN DABBA -->
+        <div class="story-card">
+            <div class="story-content">
+                <img src="ameena.png" style="object-fit: cover;" alt="Sunita's story" class="story-image">
+                <div class="text-content">
+                    <h3> Amina’s Journey to Empowerment
+
+            </h3>
+                    <p>Amina, a 28-year-old mother of three from a rural village, struggled to provide for her family after her husband lost his job.</p>
+         <div class="full-story" style="display: none;">
+                        <p>After discovering the online education platform, Amina enrolled in a basic literacy course and learned to read and write. Encouraged by her progress, she continued with courses in financial literacy and small business management
+                     With newfound confidence and skills, Amina started a small tailoring business from her home. </p>
+           </div>
+                    <a class="read-more-btn" onclick="toggleStory(this)">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- CLOSE DABBA -->
+        <!-- OPEN DABBA -->
+        <div class="story-card">
+            <div class="story-content">
+                <img src="leila.png" style="object-fit: cover;" alt="Sunita's story" class="story-image">
+                <div class="text-content">
+                    <h3> Journey of Leila’s Educational Advocacy
+                    </h3>
+                    <p>Leila, a 24-year-old living in a low-income neighborhood, recognized the lack of educational
+                        resources for children in her community.</p>
+                    <div class="full-story" style="display: none;">
+                        <p>After participating in a series of online workshops focused on community leadership and
+                            advocacy, Leila felt empowered to take action.She organized workshops for parents, teaching
+                            them how to support their children’s learning at home.</p>
+                    </div>
+                    <a class="read-more-btn" onclick="toggleStory(this)">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!--  CLOSE DABBA-->
+       
+        <!--  -->
+    </div>
+
+    <script>
+        function toggleStory(button) {
+            const fullStory = button.previousElementSibling;
+            if (fullStory.style.display === "none") {
+                fullStory.style.display = "block";
+                button.textContent = "Read Less";
+            } else {
+                fullStory.style.display = "none";
+                button.textContent = "Read More";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
